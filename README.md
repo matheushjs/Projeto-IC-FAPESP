@@ -11,4 +11,6 @@ However, the model is public and the license allows unrestricted use.
 This is **not** an official model.
 Use at your own risk.
 
-See the project PDF [here](./projeto.pdf)
+See the project PDF [here](./projeto.pdf).
+
+See the Overleaf project [here](https://v2.overleaf.com/read/fgqknpqgsswb). I'll publish as a template as soon as Overleaf allows.
