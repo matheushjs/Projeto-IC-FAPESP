@@ -1,0 +1,85 @@
+
+A partir deste ponto, o conteúdo do projeto submetido e aceito é replicado, para ser tomado como base para a escrita da seção de metodologia.
+
+\subsection{Atividades a Serem Desenvolvidas}
+\label{section:atividadesdesenvolvidas}
+
+A execução do projeto pode ser dividida nas seguintes etapas:
+
+\begin{enumerate}
+    \item \textbf{Seleção dos algoritmos}, quando algoritmos paralelos de predição de estruturas de proteínas, encontrados na literatura, serão selecionados, com suporte da engenharia reversa sobre os mesmos. Espera-se nesta etapa levantar não apenas quais algoritmos considerar para o desenvolvimento do projeto, mas também determinar seus principais requisitos com vistas a implementações paralelas em diferentes arquiteturas;
+    
+    \item \textbf{Reengenharia dos algoritmos selecionados}, quando a metodologia de projeto PCAM será aplicada aos algoritmos selecionados, instanciando-os aos modelos de programação considerados no projeto;
+    
+    \item \textbf{Implementação dos algoritmos}, na qual os algoritmos paralelos serão implementados e documentados, ao mesmo tempo que serão executados os testes de unidade durante a implementação para favorecer a confiabilidade do código final, diminuindo a possibilidade de defeitos não revelados nos códigos desenvolvidos;
+    
+    \item \textbf{Projeto e execução de experimentos}, quando experimentos serão projetados e executados visando validar os algoritmos implementados e obter os dados necessários para avaliar o desempenho dos mesmos (vide Seção \ref{section:analiseresultados} para maiores detalhes);
+
+    \item \textbf{Finalização da documentação}, na qual será elaborada a documentação final do conjunto de algoritmos analisados e implementados, a ser disponibilizada publicamente para uso de outros pesquisadores. A disponibilização da documentação (em conjunto com os algoritmos implementados) ocorrerá na página do Laboratório de Sistemas Distribuídos e Programação Concorrente (LaSDPC) do ICMC/USP;
+    
+    \item \textbf{Redação de artigos científicos}, quando serão escritos artigos científicos descrevendo os resultados obtidos neste projeto de Iniciação Científica. Espera-se submeter artigos para o Simpósio em Sistemas Computacionais de Alto Desempenho (WSCAD) em 2018;
+    
+    \item \textbf{Redação dos Relatórios Científicos}, quando serão escritos os relatórios exigidos pelas normas da FAPESP.
+    
+\end{enumerate}
+
+\subsection{Cronograma}
+
+Com base nas tarefas enumeradas na Seção \ref{section:atividadesdesenvolvidas}, é mostrado na Tabela \ref{tab:cronograma} o cronograma a ser executado durante a realização deste projeto.
+
+\begin{table}[ht]
+\centering
+\caption{Cronograma das atividades.}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\multirow{2}{*}{{\bf Fases}} & \multicolumn{12}{c|}{{\bf Meses}}
+\\ \cline{2-13}
+    & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12
+\\ \hline
+    {\bf 1. Seleção algoritmos} & x & x & & & & & & & & & &
+\\ \hline
+    {\bf 2. Reengenharia algoritmos} &  & x & x & & & & & & & & &
+\\ \hline
+    {\bf 3. Implementação algoritmos} & & x & x & x & x & x & x & & & & &
+\\ \hline
+    {\bf 4. Experimentos} & & & x & x & x & x & x & x & x & x &  & 
+\\ \hline
+    {\bf 5. Documentação} & & & & & & & & x & x & x & & 
+\\ \hline
+    {\bf 6. Artigos} &  &  &  &  &  &  &  &  & x & x & x & 
+\\ \hline    
+    {\bf 7. Relatórios} & & & & & x & x & & & & & x & x
+\\ \hline
+\end{tabular}
+\label{tab:cronograma}
+\end{table}
+
+
+\subsection{Desafios Científicos e Técnicos}
+
+% Não sei se entendi o conteúdo a ser escrito aqui.
+
+\subsection{Material a Ser Utilizado}
+\label{section:material}
+
+\subsection{Forma de Análise dos Resultados}
+\label{section:analiseresultados}
+
+
+\begin{enumerate}
+    \item eficiência e \textit{speedup} em relação à versão sequencial do mesmo algoritmo, variando-se a carga de trabalho (proteínas a serem preditas) e o tamanho da arquitetura sendo usada para a execução paralela;
+    \item comparação da eficiência e \textit{speedups} obtidos pelos diferentes algoritmos, também variando-se as proteínas e as arquiteturas;
+    \item menores energias calculadas, para cada dado de entrada e arquitetura utilizada.
+\end{enumerate}
+
+\begin{enumerate}
+    % Número total de algoritmos
+    \item devem ser implementados entre 4 e 8 algoritmos paralelos de predição de PSP. Este número foi estipulado em função dos algoritmos já encontrados na literatura em artigos científicos. Caso novos artigos sejam encontrados, seus algoritmos também serão considerados. Outrossim, acredita-se que a implementação dos algoritmos já descobertos seja possível; porém, isso será analisado em maior profundidade, de fato, durante o desenvolvimento do projeto, abrindo-se a possibilidade para que nem todos os algoritmos venham a ser codificados (por falta de informações e/ou retorno de seus autores, caso necessário);
+    
+    % Número de algoritmos algoritmos modificados que devo propor
+    \item os algoritmos serão, tanto quanto possível, projetados visando execução em diferentes arquiteturas paralelas e codificação com diferentes modelos de programação.
+\end{enumerate}
+
+\subsection{Resultados Esperados}
+
+\subsection{Exequibilidade}
