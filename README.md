@@ -10,3 +10,5 @@ However, the model is public and the license allows unrestricted use.
 
 This is **not** an official model.
 Use at your own risk.
+
+See the project PDF [here](./projeto.pdf)
