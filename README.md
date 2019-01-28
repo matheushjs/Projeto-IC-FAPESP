@@ -13,4 +13,4 @@ Use at your own risk.
 
 See the project PDF [here](./projeto.pdf).
 
-See the Overleaf project [here](https://v2.overleaf.com/read/fgqknpqgsswb). I'll publish as a template as soon as Overleaf allows.
+See the Overleaf template [here](https://www.overleaf.com/latex/templates/projeto-fapesp-iniciacao-cientifica/ztxxhbppfxpz).
